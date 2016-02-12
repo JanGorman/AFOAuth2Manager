@@ -22,7 +22,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <AFNetworking/AFHTTPRequestOperationManager.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @see RFC 6749 The OAuth 2.0 Authorization Framework: http://tools.ietf.org/html/rfc6749
  */
-@interface AFOAuth2Manager : AFHTTPRequestOperationManager
+@interface AFOAuth2Manager : AFHTTPSessionManager
 
 ///------------------------------------------
 /// @name Accessing OAuth 2 Client Properties
